@@ -163,7 +163,7 @@ echo
 #
 echo -e "Instalação e Configuração do LogAnalyzer no GNU/Linux Ubuntu Server 20.04.x\n"
 echo -e "Porta padrão utilizada pelo Syslog/Rsyslog.: UDP 514"
-echo -e "Após a instalação do LogAnalyzer acessar a URL: https://log.$(hostname -d | cut -d' ' -f1)/\n"
+echo -e "Após a instalação do LogAnalyzer acessar a URL: https://$ip_address/\n"
 echo -e "Aguarde, esse processo demora um pouco dependendo do seu Link de Internet...\n"
 sleep 5
 #
